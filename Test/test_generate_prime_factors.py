@@ -12,3 +12,5 @@ def test_3():
     assert generate_prime_factors(2) == [2]
 def test_4():
     assert generate_prime_factors(3) == [3]
+def test_5():
+    assert generate_prime_factors(4) == [2,2]
