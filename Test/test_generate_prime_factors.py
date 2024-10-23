@@ -6,3 +6,5 @@ def test_1_string():
 def test_1_float():
     with pytest.raises(ValueError, match="Wrong data type, must be an integer"):
         generate_prime_factors(1.0)
+def test_2():
+    assert generate_prime_factors(1) == []
